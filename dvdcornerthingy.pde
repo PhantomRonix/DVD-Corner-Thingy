@@ -46,7 +46,7 @@ void setup()
   frameRate(60);
   colorMode(HSB,100);
   background(0,0,0);
-  direction.setMag(8);
+  direction.setMag(2);
   x = width/2;
   y = height/2;
   contact = false;
@@ -83,7 +83,7 @@ void process()
   }
   x+= direction.x;
   y+= direction.y;
-  print(x,y,"\n");
+  //print(x,y,"\n");
   //for (int i = 0; i < objects.length ;i++){
   //  objects[i].update();
   //}
